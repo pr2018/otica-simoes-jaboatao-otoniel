@@ -1,0 +1,255 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-image: url('../img/background.png');
+}
+
+.clinic span {
+    font-size: 20px;
+}
+
+.page-1, .page-2, .page-3, .page-4, .page-5, .page-6, .page-7, .page-8, .page-9, .page-10  {
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1 {
+    color: #fff;
+}
+
+.page-1__section, .page-2__section, .page-3__section, .page-4__section, .page-5__section, 
+.page-6__section, .page-7__section, .page-8__section, .page-9__section, .page-10__section
+{
+    align-self: center;
+    box-shadow: 1px 1px 8px black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #fff;
+}
+
+/* PAGE 1 */
+.page-1 .page-1__button, .page-2 .page-2__button, .page-3__button, .page-4__button, .page-5__button, 
+.page-6__button, .page-7__button, .page-8__button, .page-9__button, .page-10__button
+{
+    height: 50px;
+    width: 100%;
+    background-color: #d19f15;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.page-1 h1, h2 {
+    color: #fff;
+    font-size: 35px;
+}
+
+/* PAGE 2 */
+.page-2 {
+    max-width: 100%;
+}
+
+.page-2 .page-2__section .section__form .form__input-group .input-group__error{
+    color: #ff2a2a;
+    font-size: 16px;
+}
+
+/* PAGE 3 */
+.page-3 .page-3__section {
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.page-3 .page-3__section p {
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+}
+
+.page-3 .page-3__button {
+    width: 100%;
+    height: 50px;
+}
+
+/* PAGE 4 */
+.page-4 .page-4__section{
+    max-width: 100%;
+} 
+
+.page-4 .page-4__section svg{ 
+    max-width: 100%;
+} 
+
+.page-4 .page-4__button {
+    width: 100%;
+    height: 50px;
+}
+
+/* PAGE 5 */
+.page-5 .page-5__game {
+    position: relative;
+    width: 100%;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.page-5 .page-5__game .game__arrow-top, .game__arrow-left, .game__arrow-bottom, .game__arrow-right{
+    background-color: #00d57c;
+    width: 60px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.page-5 .page-5__game .game__arrow-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
+}
+
+.page-5 .page-5__game .game__arrow-left {
+    position: absolute;
+    left: 0;
+}
+
+.page-5 .page-5__game .game__arrow-right {
+    position: absolute;
+    right: 0;
+}
+
+.page-5 .page-5__game .game__arrow-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
+}
+
+
+.page-5 .page-5__game .game__test{
+    font-size: 50px;
+    position: absolute;
+    align-self: center;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80px;
+}
+
+/* PAGE 6 */
+.page-6 img {
+    max-width: 100%;
+}
+
+.page-6 .page-6__section .box__input-group .input-group__btn 
+{
+    width: 100%;
+}
+
+.page-7 .page-7__section svg {
+    width: 100%;
+}
+
+/* PAGE 7 */
+.page-7 .page-7__button {
+    height: 50px;
+    width: 100%;
+}
+
+
+/* PAGE 8 */
+.page-8 .page-8__game {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.page-8 .page-8__game .game__arrow-top, .game__arrow-left, .game__arrow-bottom, .game__arrow-right{
+    background-color: #00d57c;
+    width: 60px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.page-8 .page-8__game .game__arrow-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
+}
+
+.page-8 .page-8__game .game__arrow-left {
+    position: absolute;
+    left: 0;
+}
+
+.page-8 .page-8__game .game__arrow-right {
+    position: absolute;
+    right: 0;
+}
+
+.page-8 .page-8__game .game__arrow-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    right: 0;
+}
+
+
+.page-8 .page-8__game .game__test{
+    font-size: 50px;
+    position: absolute;
+    align-self: center;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 80px;
+}
+
+/* PAGE 9 */
+.page-9 img {
+    max-width: 100%;
+}
+
+.page-9 .page-9__section .box__input-group .input-group__btn 
+{
+    width: 100%;
+}
+
+/* PAGE 10 */
+.page-10 .page-10__button {
+    width: 100%;
+    align-items: center;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
