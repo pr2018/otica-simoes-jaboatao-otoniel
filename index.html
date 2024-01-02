@@ -12,17 +12,17 @@
 
 <body>
     <div class="container clinic">
-        <div class="page-1">
+        <div class="page-1 page">
             <h1>TESTE SUA VISÃO</h1>
             <h2>EM 1 MINUTO</h2>
 
-            <button class="btn page-1__button" id="btn-start" >
+            <button class="btn page-1__button button" id="btn-start" >
                 INICIAR
             </button>
         </div>
 
-        <div class="page-2">
-            <section class="page-2__section">
+        <div class="page-2 page">
+            <section class="page-2__section section">
                 <span>Sua idade é importante para o teste, e lhe chamar pelo nome é importante para nós</span>
 
                 <form class="section__form mt-3">
@@ -41,17 +41,17 @@
                         <button type="submit" class="btn btn-light input-group-btn" id="btn-yes">Sim</button>
                         <button type="submit" class="btn btn-primary input-group-btn" id="btn-no">Não</button>
                     </div>
-                    <button type="submit" class="btn form__continue page-2__button"
+                    <button type="submit" class="btn form__continue page-2__button button"
                         id="page-2-continue">Continuar</button>
                 </form>
             </section>
         </div>
 
-        <div class="page-3">
+        <div class="page-3 page">
             <header>
                 <h1>Ajuste de Distância</h1>
             </header>
-            <section class="page-3__section pb-3">
+            <section class="page-3__section section pb-3">
                 <svg width="207" height="280" viewBox="0 0 207 280" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M141 112C171.928 112 197 86.9279 197 56C197 25.0721 171.928 0 141 0C110.072 0 85 25.0721 85 56C85 86.9279 110.072 112 141 112Z"
@@ -71,17 +71,17 @@
                 </svg>
                 <p class="pt-3 mb-0 pb-0">Mantenha o dispositivo a <br> <b>2 palmos de distância</b></p>
             </section>
-            <button class="btn page-3__button mt-4" id="page-3-continue">
+            <button class="btn page-3__button button mt-4" id="page-3-continue">
                 Continuar
             </button>
         </div>
 
-        <div class="page-4">
+        <div class="page-4 page">
             <header>
                 <h1>VERIFICAÇÃO DE OLHOS</h1>
             </header>
 
-            <section class="page-4__section">
+            <section class="page-4__section section">
                 <span><span class="section-nome">user_name</span>, tape com a mão o olho direito</span>
                 <svg width="351" height="151" viewBox="0 0 351 151" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -114,18 +114,18 @@
                     </defs>
                 </svg>
 
-                <button class="btn page-4__button mt-4" id="page-4-continue">
+                <button class="btn page-4__button button mt-4" id="page-4-continue">
                     Continuar
                 </button>
             </section>
         </div>
 
-        <div class="page-5">
+        <div class="page-5 page">
             <header>
                 <h1>TESTE DE VISÃO</h1>
             </header>
 
-            <div class="page-5__section">
+            <div class="page-5__section section">
                 <span><span class="section-nome">user_name</span>, clique na seta que indica a direção da letra E</span>
 
                 <div class="page-5__game">
@@ -177,8 +177,8 @@
             </div>
         </div>
 
-        <div class="page-6">
-            <div class="page-6__section">
+        <div class="page-6 page">
+            <div class="page-6__section section">
                 <span><span class="section-nome">user_name</span>, você vê alguma linha mais <b>ESCURA</b>?</span>
 
                 <img src="./assets/img/espiral.png" alt="Espiral">
@@ -198,8 +198,8 @@
             </div>
         </div>
 
-        <div class="page-7">
-            <div class="page-7__section">
+        <div class="page-7 page">
+            <div class="page-7__section section">
                 <span><span class="section-nome">user_name</span>, tape com a mão o olho esquerdo</span>
 
                 <svg width="362" height="172" viewBox="0 0 362 172" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -232,18 +232,18 @@
                         </filter>
                     </defs>
                 </svg>
-                <button class="btn page-7__button mt-4" id="page-7-continue">
+                <button class="btn page-7__button button mt-4" id="page-7-continue">
                     Continuar
                 </button>
             </div>
         </div>
 
-        <div class="page-8">
+        <div class="page-8 page">
             <header>
                 <h1>TESTE DE VISÃO</h1>
             </header>
 
-            <div class="page-8__section">
+            <div class="page-8__section section">
                 <span><span class="section-nome">user_name</span>, clique na seta que indica a direção da letra E</span>
 
                 <div class="page-8__game mt-3">
@@ -295,8 +295,8 @@
             </div>
         </div>
 
-        <div class="page-9">
-            <div class="page-9__section">
+        <div class="page-9 page">
+            <div class="page-9__section section">
                 <span><span class="section-nome">user_name</span>, você vê alguma linha mais <b>ESCURA</b>?</span>
 
                 <img src="./assets/img/espiral.png" alt="Espiral">
@@ -316,12 +316,18 @@
             </div>
         </div>
 
-        <div class="page-10">
-            <div class="page-10__section">
-                <span><span class="section-nome">user_name</span>, entre em contato com a gente para um resultado
-                    detalhado...</span>
+        <div class="page-10 page">
+            <div class="page-10__section section">
+                <span><span class="section-nome">user_name</span>, sua pontuação foi: </span>
 
-                <a href="https://wa.me/message/LJAYVWWGVM64G1" class="btn page-10__button mt-4"
+
+                <span class="section__percentage">0%</span>
+
+                <article class="bad-test">Entre em contato urgente conosco para um resultado mais detalhado</article>
+                <article class="intermediary-test">entre em contato com a gente para um resultado detalhado...</article>
+                <article class="nice-test">Seu resultado está bom. Marque uma consulta para fazer novos testes</article>
+
+                <a class="btn page-10__button button mt-4"
                     id="page-10-continue">
                     Continuar
                 </a>
